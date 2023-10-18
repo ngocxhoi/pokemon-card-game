@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+  scroll-behavior: smooth;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(8, 90px);
+  gap: 1rem;
+  place-content: center;
+}
